@@ -3,7 +3,7 @@ import axios from 'axios'
 import axiosRetry from 'axios-retry'
 
 const instanceQuran = axios.create({
-  baseURL: 'http://api.alquran.cloud',
+  baseURL: 'https://api.alquran.cloud',
   timeout: 10000,
   headers: {
     common: {
@@ -14,7 +14,7 @@ const instanceQuran = axios.create({
 })
 
 const instanceTafser = axios.create({
-  baseURL: 'http://api.quran-tafseer.com',
+  baseURL: 'https://api.quran-tafseer.com',
   timeout: 10000,
   headers: {
     common: {
