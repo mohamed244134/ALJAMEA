@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ALJAMEA/static/css/main.d9ec8581.css",
+    "main.js": "/ALJAMEA/static/js/main.b87aa49a.js",
+    "static/js/787.688ba83f.chunk.js": "/ALJAMEA/static/js/787.688ba83f.chunk.js",
+    "index.html": "/ALJAMEA/index.html",
+    "main.d9ec8581.css.map": "/ALJAMEA/static/css/main.d9ec8581.css.map",
+    "main.b87aa49a.js.map": "/ALJAMEA/static/js/main.b87aa49a.js.map",
+    "787.688ba83f.chunk.js.map": "/ALJAMEA/static/js/787.688ba83f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9ec8581.css",
+    "static/js/main.b87aa49a.js"
+  ]
+}
