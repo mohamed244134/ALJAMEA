@@ -1,0 +1,36 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  border-bottom: 1px solid;
+}
+.header-logo {
+  width: 90px;
+  object-fit: contain;
+  margin: 0 0px;
+  margin-top: 0px;
+  transition: transform 0.1s;
+}
+.header-logo:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  margin: 40;
+  width: 700px;
+  color: white;
+  padding: 10px;
+}
+.header-nav > div {
+  flex: 1 1 auto;
+  border: 1px rgb(251, 249, 249) solid;
+  text-align: center;
+
+  margin: 10px; /* and that, will result in a 10px gap */
+}

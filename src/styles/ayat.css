@@ -1,0 +1,23 @@
+.ayat-info {
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 20px;
+  width: 90%;
+  background-color: white;
+  border: 3px solid;
+  border-radius: 30px;
+  border-color: black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.sura-name {
+  text-align: center;
+}
+.ayat-words {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.ayahs {
+  display: inline-block;
+  vertical-align: top;
+}

@@ -1,0 +1,20 @@
+.home-backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  max-width: 1500px;
+}
+.home-row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+}

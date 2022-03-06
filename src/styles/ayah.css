@@ -1,0 +1,12 @@
+.ayah {
+  padding: 0 0.5em;
+  display: inline-block;
+  position: relative;
+}
+.ayah-text {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.ayah-text:hover {
+  background-color: yellow;
+}

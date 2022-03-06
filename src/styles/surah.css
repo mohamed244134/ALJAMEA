@@ -1,0 +1,71 @@
+.surah {
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: black;
+  transition: transform 0.1s;
+}
+.surah:hover {
+  background-color: #ecd60c;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.surah > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.surah-info {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.surah-price {
+  margin-top: 5px;
+}
+.surah > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  margin: 40;
+  color: white;
+  padding: 10px;
+}
+.actions > div {
+  flex: 1 1 auto;
+  text-align: center;
+
+  margin: 10px; /* and that, will result in a 10px gap */
+}
+.actions > div > Button {
+  border-color: #04aa6d;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  color: green;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.button2:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.surah-name {
+  text-align: center;
+}
+.surah-sound {
+  width: 100%;
+}
