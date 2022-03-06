@@ -12,8 +12,8 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
-          <Route path="/quran" element={<Home />} />
-          <Route path="/surah/:surah/:number" element={<Ayat />} />
+          <Route path="ALJAMEA/quran" element={<Home />} />
+          <Route path="ALJAMEA/surah/:surah/:number" element={<Ayat />} />
           <Route path="/hoo" element={<AyahAudio />} />
         </Routes>
       </div>
